@@ -1,5 +1,5 @@
 <!-- Please do not change this html logo with link -->
-<a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300"/></a>
+<a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
 # Update the title for avr128db48-constant-current-driver-using-opamp here
 
