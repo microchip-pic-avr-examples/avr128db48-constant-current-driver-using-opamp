@@ -6,7 +6,7 @@
   <img width=800px height=auto src="images/setup.png">
 </p>
 <!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
-A new feature introduced in the AVR-DB is the Analog Signal Conditioning (OPAMP) peripheral. In this example, the OPAMP is used as a constant-current driver using a single external resistor. It can be used to drive electronic components such as LEDs, with constant current and not constant voltage. The OPAMP peripheral also provides the ability to adjust the current setting under firmware control. The configuration for this example can be seen in the figure above. For more information about setup and code, see the application note.
+A new feature introduced in the AVR-DB is the Analog Signal Conditioning (OPAMP) peripheral. In this example, the OPAMP is used as a constant-current driver using a single external resistor. It can be used to drive a load such as LEDs, with constant current and not constant voltage. The OPAMP peripheral also provides the ability to adjust the current setting under firmware control. The configuration for this example can be seen in the figure above. For more information about setup and code, see the application note.
 
 ## Related Documentation
 
@@ -14,8 +14,8 @@ A new feature introduced in the AVR-DB is the Analog Signal Conditioning (OPAMP)
      In addition a link to the device family landing page and relevant peripheral pages as well:
      - [AN3381 - Brushless DC Fan Speed Control Using Temperature Input and Tachometer Feedback](https://microchip.com/00003381/)
      - [PIC18F-Q10 Family Product Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family) -->
-* [Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral Application Note](https://microchip.com/DSxxxxxxxxxx) <!--fill in DS number once it has been assigned-->
-* [AVR128DB48 landing page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
+* [ANxxxx - AVR128DB48 Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral](https://microchip.com/DSxxxxxxxxxx) <!--fill in DS number once it has been assigned-->
+* [AVR128DB48 device page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 
 ## Software Used
 
@@ -25,7 +25,7 @@ A new feature introduced in the AVR-DB is the Analog Signal Conditioning (OPAMP)
      - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
      - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
      - Microchip PIC18F-Q Series Device Support (1.4.109) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/) -->
-* [Atmel Studio 7.0.2397 or later](https://www.microchip.com/mplab/avr-support/atmel-studio-7)
+* [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
 * Atmel Studio AVR-DB_DFP version 1.0.21 or above
   
 ## Hardware Used
@@ -53,5 +53,5 @@ A new feature introduced in the AVR-DB is the Analog Signal Conditioning (OPAMP)
 <!-- Explain how to operate the example. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
 
 ## Summary
-This example provides the necessary code to set up the OPAMP peripheral as a constant current driver for a load. The value of the current is determined by an external resistor R3 and by selecting different voltage references internally for the OPAMP.
+This example has provided the necessary code to set up the OPAMP peripheral as a constant current driver for a load using a single external resistor.
 <!-- Summarize what the example has shown -->
