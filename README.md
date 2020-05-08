@@ -20,7 +20,7 @@ A new feature introduced in the AVR-DB is the Analog Signal Conditioning (OPAMP)
 ## Hardware Used
 
 * [AVR128DB48 Curiosity Nano](https://www.microchip.com/wwwproducts/en/AVR128DB48) <!-- Not the correct link, fix when curiosity nano page exists-->
-* One resistor
+* One resistor (value dependent on desired current)
 * Load (LED, etc)
 
 ## Setup
@@ -30,8 +30,8 @@ A new feature introduced in the AVR-DB is the Analog Signal Conditioning (OPAMP)
 ## Operation
 * Connect the AVR128DB48 Curiosity Nano to a computer using a USB cable
 * Download the zip file or clone the example to get the source code
-* Open the solution with Atmel Studio
-* Press Start without debugging or use CTRL+ALT+F5 hotkeys to run the application
+* Open the .atsln file with Atmel Studio
+* Press *Start Without Debugging* (CTRL+ALT+F5) to run the application
 
 ## Conclusion
 After going through this example you should have a better understanding of how to set up the OPAMP peripheral as a constant current driver for a load.
