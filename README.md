@@ -15,7 +15,7 @@ A new feature introduced in the AVR® DB MCU is the Analog Signal Conditioning (
 ## Software Used
 
 * [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
-* Atmel Studio AVR-DB_DFP version 1.0.21 or later
+* Atmel Studio AVR-Dx_DFP version 1.1.45 or later
   
 ## Hardware Used
 
