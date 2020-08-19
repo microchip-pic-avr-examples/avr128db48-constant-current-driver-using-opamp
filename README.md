@@ -9,23 +9,27 @@ A new feature introduced in the AVR® DB MCU is the Analog Signal Conditioning (
 
 ## Related Documentation
 
-* [ANxxxx - AVR128DB48 Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral](https://microchip.com/DSxxxxxxxxxx) <!--fill in DS number once it has been assigned-->
+* ANxxxx - Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral
 * [AVR128DB48 device page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 
 ## Software Used
-
+### Studio
 * [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
-* Atmel Studio AVR-Dx_DFP version 1.1.45 or later
+* Atmel Studio AVR-Dx_DFP version 1.3.67 or later
+### MPLAB® X
+* [MPLAB® X](https://www.microchip.com/mplab/mplab-x-ide) v5.40 or later
+* [MPLAB® XC8 Compiler](https://www.microchip.com/mplab/compilers) v2.20 or later
+* MPLABX AVR-Dx_DFP version 1.4.75 or later
   
 ## Hardware Used
 
-* [AVR128DB48 Curiosity Nano](https://www.microchip.com/wwwproducts/en/AVR128DB48) <!-- Not the correct link, fix when curiosity nano page exists-->
+* [AVR128DB48 Curiosity Nano](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 * One resistor (value dependent on desired current)
 * Load (LED, etc)
 
 ## Setup
 
-* Connect the hardware together as seen in the schematic of the [application note](https://microchip.com/DSxxxxxxxxxx) <!--fill in DS number once it has been assigned-->
+* Connect the hardware together as seen in the schematic of the application note
 
 ## Operation
 * Connect the AVR128DB48 Curiosity Nano to a computer using a USB cable

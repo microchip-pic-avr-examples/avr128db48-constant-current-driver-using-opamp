@@ -32,11 +32,11 @@ int main(void)
 	OPAMP.TIMEBASE = 3; // Number of CLK_PER cycles that equal one us, minus one (4-1=3)
 	
 	//Connect OP0 to wiper and pin connected to sense resistor
-	OPAMP.OP0INMUX = OPAMP_MUXPOS_WIP_gc | OPAMP_MUXNEG_INN_gc;
+	OPAMP.OP0INMUX = OPAMP_OP0INMUX_MUXPOS_WIP_gc | OPAMP_OP0INMUX_MUXNEG_INN_gc;
 	//Connect resistor ladder to VDD and ground so the wiper functions as a voltage divider
-	OPAMP.OP0RESMUX = OPAMP_MUXBOT_GND_gc | OPAMP_MUXWIP_WIP7_gc | OPAMP_MUXTOP_VDD_gc;
+	OPAMP.OP0RESMUX = OPAMP_OP0RESMUX_MUXBOT_GND_gc | OPAMP_OP0RESMUX_MUXWIP_WIP7_gc | OPAMP_OP0RESMUX_MUXTOP_VDD_gc;
 	// Configure OP0 Control A
-	OPAMP.OP0CTRLA = OPAMP_OUTMODE_NORMAL_gc | OPAMP_ALWAYSON_bm;
+	OPAMP.OP0CTRLA = OPAMP_OP0CTRLA_OUTMODE_NORMAL_gc | OPAMP_ALWAYSON_bm;
 	
 	// Enable the OPAMP peripheral
 	OPAMP.CTRLA = OPAMP_ENABLE_bm;
