@@ -3,28 +3,24 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.studio.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.studio.project.avr128db48-constant-current-driver-using-opamp",
+        "version": "1.0.0",
+        "displayName": "Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral",
+        "projectName": "avr128db48-constant-current-driver-using-opamp",
+        "shortDescription": "Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "Studio",
+            "semverRange": ">=7.0.2397"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "AVR-GCC",
+				"semverRange": "^5.4.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
-        },
-        "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": ">=1.3.67"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,26 +28,33 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "AVR128DB48",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
             "",
             [
-               "Peripherals", ""
+               "Device Family", "AVR DB"
             ],
             [
-               "Peripherals", ""
+               "Development Board", "AVR128DB48 Curiosity Nano"
             ]            			
         ],
         "peripherals": [
-            "",""
+            "OPAMP", "DAC", "VREF"
         ],
         "keywords": [
-            "",
-            ""			
+		"Analog Signal Conditioning",
+		"Operational Amplifier",
+		"Op Amp",
+		"Resistor Ladder",
+		"Constant Current",
+		"Current Drive",
+		"Digital To Analog Converter",
+        "Low BOM",
+		"CIP"
         ],
 		"additionalData": {
 			"longDescription": {
