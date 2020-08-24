@@ -16,6 +16,7 @@ A new feature introduced in the AVR® DB MCU is the Analog Signal Conditioning (
 
 * [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
 * Atmel Studio AVR-Dx_DFP version 1.3.67 or later
+* For the MPLAB X version of this project, please go to [this repository](https://github.com/microchip-pic-avr-examples/avr128db48-constant-current-driver-using-opamp-mplab)
   
 ## Hardware Used
 
