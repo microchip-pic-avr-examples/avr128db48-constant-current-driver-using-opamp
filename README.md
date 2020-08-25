@@ -22,7 +22,7 @@ A new feature introduced in the AVR® DB MCU is the Analog Signal Conditioning (
   
 ## Hardware Used
 
-* [AVR128DB48 Curiosity Nano](https://www.microchip.com/wwwproducts/en/AVR128DB48)
+* [AVR128DB48 Curiosity Nano](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/EV35L43A)
 * One resistor (value dependent on desired current)
 * Load (LED, etc)
 
