@@ -7,7 +7,7 @@
         "version": "1.0.0",
         "displayName": "Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral",
         "projectName": "avr128db48-constant-current-driver-using-opamp",
-        "shortDescription": "Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral",
+        "shortDescription": "This application note describes how to use the Analog Signal Conditioning (OPAMP) peripheral to implement a constant-current driver using just one external resistor. The OPAMP peripheral also provides the ability to adjust the current setting under firmware control.",
         "ide": {
             "name": "Studio",
             "semverRange": ">=7.0.2397"
@@ -20,7 +20,11 @@
 		],
         "dfp": {
             "name": "AVR-Dx_DFP",
-            "semverRange": ">=1.3.67"
+            "semverRange": "^1.3.67"
+        },
+		"configurator": {
+        	"name": "N/A",
+            "semverRange": ""
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -34,27 +38,32 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "",
             [
-               "Device Family", "AVR DB"
+               "Peripherals", "OPAMP"
             ],
             [
-               "Development Board", "AVR128DB48 Curiosity Nano"
-            ]            			
+               "Peripherals", "DAC"
+            ],            			
+            [
+               "Peripherals", "VREF"
+            ],
+            [
+               "Development Kit", "AVR128DB48 Curiosity Nano"
+            ]         			
         ],
         "peripherals": [
             "OPAMP", "DAC", "VREF"
         ],
         "keywords": [
-		"Analog Signal Conditioning",
-		"Operational Amplifier",
-		"Op Amp",
-		"Resistor Ladder",
-		"Constant Current",
-		"Current Drive",
-		"Digital To Analog Converter",
-        "Low BOM",
-		"CIP"
+			"Analog Signal Conditioning",
+			"Operational Amplifier",
+			"Op Amp",
+			"Resistor Ladder",
+			"Constant Current",
+			"Current Drive",
+			"Digital To Analog Converter",
+			"Low BOM",
+			"CIP"
         ],
 		"additionalData": {
 			"longDescription": {
