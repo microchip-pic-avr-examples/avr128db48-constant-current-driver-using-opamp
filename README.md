@@ -1,7 +1,7 @@
 
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# AVR128DB48 Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral
+# Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral
 <p align="left">
   <img width=800px height=auto src="images/setup.png">
 </p>
@@ -11,7 +11,7 @@ A new feature introduced in the AVR® DB MCU is the Analog Signal Conditioning (
 ## Related Documentation
 
 * [AN3632 - Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral](https://microchip.com/DS00003632)
-* AVR128DB48 Curiosity Nano User Guide (link will be added once available)
+* [AVR128DB48 Curiosity Nano User Guide](https://www.microchip.com/DS50003037)
 * [AVR128DB48 Device Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 
 ## Software Used

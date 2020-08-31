@@ -7,7 +7,7 @@
         "version": "1.0.0",
         "displayName": "Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral",
         "projectName": "avr128db48-constant-current-driver-using-opamp",
-        "shortDescription": "This application note describes how to use the Analog Signal Conditioning (OPAMP) peripheral to implement a constant-current driver using just one external resistor. The OPAMP peripheral also provides the ability to adjust the current setting under firmware control.",
+        "shortDescription": "This Atmel Studio 7 bare metal example in Constant-Current Driver Using the Analog Signal Conditioning (OPAMP) Peripheral (AN3632), shows how to use the OPAMP to implement a constant-current driver using just one external resistor. The OPAMP peripheral also provides the ability to adjust the current setting under firmware control.",
         "ide": {
             "name": "Studio",
             "semverRange": ">=7.0.2397"
@@ -43,16 +43,13 @@
             ],
             [
                "Peripherals", "DAC"
-            ],            			
-            [
-               "Peripherals", "VREF"
             ],
             [
                "Development Kit", "AVR128DB48 Curiosity Nano"
             ]         			
         ],
         "peripherals": [
-            "OPAMP", "DAC", "VREF"
+            "OPAMP", "DAC"
         ],
         "keywords": [
 			"Analog Signal Conditioning",
@@ -60,10 +57,13 @@
 			"Op Amp",
 			"Resistor Ladder",
 			"Constant Current",
-			"Current Drive",
-			"Digital To Analog Converter",
+			"Current Driver",
+			"Digital-To-Analog Converter",
 			"Low BOM",
-			"CIP"
+			"CIP",
+			"AVR-DB",
+			"AVRDB",
+			"constant-current-driver-using-opamp"
         ],
 		"additionalData": {
 			"longDescription": {
